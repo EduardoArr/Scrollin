@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">LA LLORERIA</string>
+
+        <string name="accion_mostrar">Show places</string>
+        <string name="accion_about">About</string>
+        <string name="accion_preferencias">Preferences</string>
+        <string name="accion_salir">leave</string>
+
+    <string name="action_settings">Settings</string>
+
+
+
+
+    </resources>
