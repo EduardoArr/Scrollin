@@ -2,7 +2,7 @@ package com.example.aplicacionscrollin.Modelo;
 import com.example.aplicacionscrollin.R;
 public class tipoLugar {
 
-    public enum tipoLugar{
+    /*public enum tipoLugar{
         OTROS ("Otros", R.drawable.otros),
         RESTAURANTE ("Restaurante", R.drawable.restaurante),
         BAR ("Bar", R.drawable.bar),
@@ -14,5 +14,5 @@ public class tipoLugar {
         DEPORTE ("Deporte", R.drawable.deporte),
         NATURALEZA ("Naturaleza", R.drawable.naturaleza),
         GASOLINERA ("Gasolinera", R.drawable.gasolinera);
-    }
+    }*/
 }
