@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
 
 
-    <LinearLayout
+    >
+
+   <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:padding="50dp"
         android:paddingTop="250dp">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp"
+            />
+
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -22,6 +34,8 @@
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"
                 android:text="@string/accion_mostrar" />
 
             <Button
@@ -39,6 +53,8 @@
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"
                 android:text="@string/accion_about" />
 
             <Button
@@ -52,4 +68,4 @@
         </TableLayout>
     </LinearLayout>
 
-</androidx.core.widget.NestedScrollView>
+</LinearLayout>

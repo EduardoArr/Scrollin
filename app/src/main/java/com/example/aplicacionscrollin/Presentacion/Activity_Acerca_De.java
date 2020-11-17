@@ -1,20 +1,16 @@
 package com.example.aplicacionscrollin.Presentacion;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentTransaction;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import com.example.aplicacionscrollin.R;
 
-public class Preferencias_Activity extends AppCompatActivity{
+public class Activity_Acerca_De extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportFragmentManager().beginTransaction().replace(android.R.id.content, new PreferenciasFragment()).commit();
-
-        
+        setContentView(R.layout.activity_acerca_de);
     }
 }
