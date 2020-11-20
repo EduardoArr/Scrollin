@@ -58,11 +58,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(id == R.id.acercaDe){
-            lanzarPreferencias(null);
+            AcercaDE(null);
             return true;
         }
         if(id == R.id.menu_buscar){
-            lanzarPreferencias(null);
+            //lanzarPreferencias(null);
             return true;
         }
 
@@ -71,6 +71,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void lanzarPreferencias(View view){
         Intent intent = new Intent(this, Preferencias_Activity.class);
+        startActivity(intent);
+    }
+
+    public void AcercaDE(View view){
+        Intent intent = new Intent(this, Activity_Acerca_De.class);
         startActivity(intent);
     }
 }

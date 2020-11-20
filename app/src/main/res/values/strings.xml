@@ -24,4 +24,11 @@
     <string name="editText">Máximo de lugares a mostrar</string>
     <string name="criterios">Criterios de evaluacion</string>
 
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="URL">URL</string>
+    <string name="comentario">Comentario</string>
+
+
 </resources>

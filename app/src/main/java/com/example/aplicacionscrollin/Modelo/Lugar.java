@@ -1,5 +1,6 @@
 package com.example.aplicacionscrollin.Modelo;
 
+
 public class Lugar {
 
     private String nombre;
@@ -8,20 +9,31 @@ public class Lugar {
     private String foto;
     private int telefono;
     private String url;
+    private tipoLugar tipo;
     private  String comentario;
     private long fecha;
     private  float valoracion;
 
-    public Lugar(String nombre, String direccion, Geopunto geopunto, String foto, int telefono, String url, String comentario, long fecha, float valoracion, double longitud, double latitud) {
+    private Geopunto posicion;
+
+    public Lugar(){
+        fecha = System.currentTimeMillis();
+
+    }
+
+    public Lugar(String nombre, String direccion, double longitud,
+                 double latitud, int telefono, String url, String comentario,
+                 float valoracion, tipoLugar tipo) {
+
+        fecha = System.currentTimeMillis();
+        posicion = new GeoPunto(longitud, latitud);
         this.nombre = nombre;
         this.direccion = direccion;
-        this.geopunto = new Geopunto(longitud, latitud);
-        this.foto = foto;
         this.telefono = telefono;
         this.url = url;
         this.comentario = comentario;
-        this.fecha = System.currentTimeMillis();
         this.valoracion = valoracion;
+        this.tipo = tipo;
     }
 
     public String getNombre() {
