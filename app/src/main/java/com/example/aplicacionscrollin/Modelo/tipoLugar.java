@@ -16,5 +16,7 @@ import com.example.aplicacionscrollin.R;
         GASOLINERA ("Gasolinera", R.drawable.gasolinera);
 
 
+        tipoLugar(String op1, int op2) {
+        }
     }
 

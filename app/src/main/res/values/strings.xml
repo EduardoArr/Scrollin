@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LA LLORERIA</string>
+    <string name="app_name">MIS LUGARES</string>
     <string name="accion_mostrar">Mostrar lugares</string>
     <string name="accion_preferencias">Preferencias</string>
     <string name="accion_about">Acerca de </string>
@@ -24,11 +24,16 @@
     <string name="editText">Máximo de lugares a mostrar</string>
     <string name="criterios">Criterios de evaluacion</string>
 
-    <string name="nombre">Nombre</string>
-    <string name="direccion">Direccion</string>
-    <string name="telefono">Telefono</string>
-    <string name="URL">URL</string>
-    <string name="comentario">Comentario</string>
+    <string name="nombre">Nombre:</string>
+    <string name="Tipo">Tipo:</string>
+    <string name="direccion">Direccion:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="URL">URL:</string>
+    <string name="comentario">Comentario:</string>
+    <string name="NombresLugar">Nombres del Lugar</string>
 
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+    <string name="compartir">Compartir</string>
 
 </resources>

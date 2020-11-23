@@ -49,8 +49,7 @@ public class LugaresLista implements RepositorioLugares{
         listaLugares.set(id, lugar);
     }
 
-
-    public void aniadeEjemplos() {​​​​​​​​
+    public void aniadeEjemplos() {
         aniade(new Lugar("Escuela Politécnica Superior de Gandía",
                 "C/ Paranimf, 1 46730 Gandia (SPAIN)", -0.166093, 38.995656,
                 962849300, "http://www.epsg.upv.es", "Uno de los mejores lugares para formarse.",
@@ -72,7 +71,7 @@ public class LugaresLista implements RepositorioLugares{
                 "Avda. de La Vital, 0 46701 Gandía (Valencia)", -0.1720092,
                 38.9705949, 962881070, "http://www.lavital.es/",
                 "El típico centro comercial", 2, tipoLugar.COMPRAS));
-    }​​​​​​​​
+    }
 
 
 

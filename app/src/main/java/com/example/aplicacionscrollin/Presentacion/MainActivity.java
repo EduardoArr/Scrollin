@@ -78,4 +78,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Activity_Acerca_De.class);
         startActivity(intent);
     }
+    public void MostrarLugares(View view){
+        Intent intent = new Intent(this, Vista_Lugar_Activity.class);
+        startActivity(intent);
+    }
+
 }

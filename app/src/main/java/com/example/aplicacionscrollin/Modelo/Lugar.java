@@ -26,7 +26,7 @@ public class Lugar {
                  float valoracion, tipoLugar tipo) {
 
         fecha = System.currentTimeMillis();
-        posicion = new GeoPunto(longitud, latitud);
+        posicion = new Geopunto(longitud, latitud);
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
